@@ -1,0 +1,43 @@
+[2025-04-29T23:32:55.500+0100] {processor.py:186} INFO - Started process (PID=64109) to work on /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-29T23:32:55.501+0100] {processor.py:914} INFO - Processing file /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-29T23:32:55.502+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:32:55.501+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-29T23:32:55.547+0100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-29T23:32:55.653+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:32:55.653+0100] {override.py:1901} INFO - Created Permission View: can read on DAG:tutorial_dag
+[2025-04-29T23:32:55.658+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:32:55.658+0100] {override.py:1901} INFO - Created Permission View: can delete on DAG:tutorial_dag
+[2025-04-29T23:32:55.661+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:32:55.661+0100] {override.py:1901} INFO - Created Permission View: can edit on DAG:tutorial_dag
+[2025-04-29T23:32:55.665+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:32:55.665+0100] {override.py:1901} INFO - Created Permission View: can read on DAG Run:tutorial_dag
+[2025-04-29T23:32:55.668+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:32:55.668+0100] {override.py:1901} INFO - Created Permission View: can delete on DAG Run:tutorial_dag
+[2025-04-29T23:32:55.671+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:32:55.671+0100] {override.py:1901} INFO - Created Permission View: can create on DAG Run:tutorial_dag
+[2025-04-29T23:32:55.674+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:32:55.674+0100] {override.py:1901} INFO - Created Permission View: menu access on DAG Run:tutorial_dag
+[2025-04-29T23:32:55.674+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:32:55.674+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T23:32:55.680+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:32:55.680+0100] {dag.py:3262} INFO - Creating ORM DAG for tutorial_dag
+[2025-04-29T23:32:55.681+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:32:55.681+0100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-29T23:32:55.690+0100] {processor.py:208} INFO - Processing /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py took 0.191 seconds
+[2025-04-29T23:35:03.090+0100] {processor.py:186} INFO - Started process (PID=64346) to work on /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-29T23:35:03.091+0100] {processor.py:914} INFO - Processing file /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-29T23:35:03.092+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:35:03.092+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-29T23:35:03.138+0100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-29T23:35:03.220+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:35:03.219+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T23:35:03.226+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:35:03.226+0100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-29T23:35:03.238+0100] {processor.py:208} INFO - Processing /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py took 0.151 seconds
+[2025-04-29T23:35:53.052+0100] {processor.py:186} INFO - Started process (PID=64554) to work on /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-29T23:35:53.052+0100] {processor.py:914} INFO - Processing file /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-29T23:35:53.053+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:35:53.053+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-29T23:35:53.099+0100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-29T23:35:53.155+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:35:53.155+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T23:35:53.161+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:35:53.161+0100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-29T23:35:53.171+0100] {processor.py:208} INFO - Processing /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py took 0.122 seconds
+[2025-04-29T23:36:48.309+0100] {processor.py:186} INFO - Started process (PID=64744) to work on /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-29T23:36:48.310+0100] {processor.py:914} INFO - Processing file /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-29T23:36:48.311+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:36:48.311+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-29T23:36:48.364+0100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-29T23:36:48.421+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:36:48.420+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T23:36:48.427+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:36:48.427+0100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-29T23:36:48.437+0100] {processor.py:208} INFO - Processing /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py took 0.131 seconds
+[2025-04-29T23:38:06.235+0100] {processor.py:186} INFO - Started process (PID=65043) to work on /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-29T23:38:06.236+0100] {processor.py:914} INFO - Processing file /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-29T23:38:06.237+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:38:06.237+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-29T23:38:06.283+0100] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-29T23:38:06.346+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:38:06.346+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T23:38:06.353+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:38:06.353+0100] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-29T23:38:06.375+0100] {processor.py:208} INFO - Processing /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/tutorial_dag.py took 0.142 seconds

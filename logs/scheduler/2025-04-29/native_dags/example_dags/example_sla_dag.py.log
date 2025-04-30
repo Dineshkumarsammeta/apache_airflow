@@ -1,0 +1,43 @@
+[2025-04-29T23:33:18.116+0100] {processor.py:186} INFO - Started process (PID=64148) to work on /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-04-29T23:33:18.117+0100] {processor.py:914} INFO - Processing file /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-04-29T23:33:18.118+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:33:18.117+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-04-29T23:33:18.172+0100] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-04-29T23:33:18.284+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:33:18.283+0100] {override.py:1901} INFO - Created Permission View: can delete on DAG:example_sla_dag
+[2025-04-29T23:33:18.289+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:33:18.289+0100] {override.py:1901} INFO - Created Permission View: can edit on DAG:example_sla_dag
+[2025-04-29T23:33:18.292+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:33:18.292+0100] {override.py:1901} INFO - Created Permission View: can read on DAG:example_sla_dag
+[2025-04-29T23:33:18.296+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:33:18.296+0100] {override.py:1901} INFO - Created Permission View: can delete on DAG Run:example_sla_dag
+[2025-04-29T23:33:18.299+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:33:18.299+0100] {override.py:1901} INFO - Created Permission View: menu access on DAG Run:example_sla_dag
+[2025-04-29T23:33:18.302+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:33:18.302+0100] {override.py:1901} INFO - Created Permission View: can create on DAG Run:example_sla_dag
+[2025-04-29T23:33:18.305+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:33:18.305+0100] {override.py:1901} INFO - Created Permission View: can read on DAG Run:example_sla_dag
+[2025-04-29T23:33:18.305+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:33:18.305+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T23:33:18.312+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:33:18.312+0100] {dag.py:3262} INFO - Creating ORM DAG for example_sla_dag
+[2025-04-29T23:33:18.318+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:33:18.318+0100] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-04-29 22:30:00+00:00, run_after=2025-04-29 22:32:00+00:00
+[2025-04-29T23:33:18.328+0100] {processor.py:208} INFO - Processing /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py took 0.214 seconds
+[2025-04-29T23:35:26.772+0100] {processor.py:186} INFO - Started process (PID=64461) to work on /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-04-29T23:35:26.773+0100] {processor.py:914} INFO - Processing file /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-04-29T23:35:26.774+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:35:26.774+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-04-29T23:35:26.826+0100] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-04-29T23:35:26.882+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:35:26.882+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T23:35:26.897+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:35:26.897+0100] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-04-29 22:32:00+00:00, run_after=2025-04-29 22:34:00+00:00
+[2025-04-29T23:35:26.907+0100] {processor.py:208} INFO - Processing /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py took 0.137 seconds
+[2025-04-29T23:36:15.722+0100] {processor.py:186} INFO - Started process (PID=64650) to work on /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-04-29T23:36:15.723+0100] {processor.py:914} INFO - Processing file /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-04-29T23:36:15.723+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:36:15.723+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-04-29T23:36:15.781+0100] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-04-29T23:36:15.837+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:36:15.837+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T23:36:15.850+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:36:15.850+0100] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-04-29 22:34:00+00:00, run_after=2025-04-29 22:36:00+00:00
+[2025-04-29T23:36:15.860+0100] {processor.py:208} INFO - Processing /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py took 0.141 seconds
+[2025-04-29T23:37:14.240+0100] {processor.py:186} INFO - Started process (PID=64831) to work on /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-04-29T23:37:14.240+0100] {processor.py:914} INFO - Processing file /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-04-29T23:37:14.241+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:37:14.241+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-04-29T23:37:14.300+0100] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-04-29T23:37:14.355+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:37:14.355+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T23:37:14.369+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:37:14.368+0100] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-04-29 22:34:00+00:00, run_after=2025-04-29 22:36:00+00:00
+[2025-04-29T23:37:14.378+0100] {processor.py:208} INFO - Processing /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py took 0.141 seconds
+[2025-04-29T23:38:29.737+0100] {processor.py:186} INFO - Started process (PID=65087) to work on /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-04-29T23:38:29.738+0100] {processor.py:914} INFO - Processing file /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-04-29T23:38:29.738+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:38:29.738+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-04-29T23:38:29.793+0100] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-04-29T23:38:29.848+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:38:29.848+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T23:38:29.861+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:38:29.861+0100] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-04-29 22:36:00+00:00, run_after=2025-04-29 22:38:00+00:00
+[2025-04-29T23:38:29.871+0100] {processor.py:208} INFO - Processing /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_sla_dag.py took 0.136 seconds

@@ -1,0 +1,75 @@
+[2025-04-29T23:33:15.690+0100] {processor.py:186} INFO - Started process (PID=64145) to work on /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-04-29T23:33:15.691+0100] {processor.py:914} INFO - Processing file /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2025-04-29T23:33:15.691+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:33:15.691+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-04-29T23:33:15.784+0100] {processor.py:925} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-04-29T23:33:15.792+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:33:15.792+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-04-29T23:33:15.849+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:33:15.849+0100] {override.py:1901} INFO - Created Permission View: can edit on DAG:example_subdag_operator
+[2025-04-29T23:33:15.854+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:33:15.854+0100] {override.py:1901} INFO - Created Permission View: can read on DAG:example_subdag_operator
+[2025-04-29T23:33:15.857+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:33:15.857+0100] {override.py:1901} INFO - Created Permission View: can delete on DAG:example_subdag_operator
+[2025-04-29T23:33:15.862+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:33:15.861+0100] {override.py:1901} INFO - Created Permission View: can create on DAG Run:example_subdag_operator
+[2025-04-29T23:33:15.864+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:33:15.864+0100] {override.py:1901} INFO - Created Permission View: can delete on DAG Run:example_subdag_operator
+[2025-04-29T23:33:15.867+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:33:15.867+0100] {override.py:1901} INFO - Created Permission View: can read on DAG Run:example_subdag_operator
+[2025-04-29T23:33:15.870+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:33:15.870+0100] {override.py:1901} INFO - Created Permission View: menu access on DAG Run:example_subdag_operator
+[2025-04-29T23:33:15.871+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:33:15.870+0100] {dag.py:3239} INFO - Sync 3 DAGs
+[2025-04-29T23:33:15.878+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:33:15.878+0100] {dag.py:3262} INFO - Creating ORM DAG for example_subdag_operator
+[2025-04-29T23:33:15.878+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:33:15.878+0100] {dag.py:3262} INFO - Creating ORM DAG for example_subdag_operator.section-1
+[2025-04-29T23:33:15.878+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:33:15.878+0100] {dag.py:3262} INFO - Creating ORM DAG for example_subdag_operator.section-2
+[2025-04-29T23:33:15.883+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:33:15.882+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2025-04-29T23:33:15.883+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:33:15.883+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-04-29T23:33:15.883+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:33:15.883+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-04-29T23:33:15.887+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:33:15.887+0100] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-29T23:33:15.889+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:33:15.889+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-04-29T23:33:15.891+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:33:15.891+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-04-29T23:33:15.898+0100] {processor.py:208} INFO - Processing /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py took 0.211 seconds
+[2025-04-29T23:35:24.435+0100] {processor.py:186} INFO - Started process (PID=64458) to work on /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-04-29T23:35:24.436+0100] {processor.py:914} INFO - Processing file /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2025-04-29T23:35:24.437+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:35:24.436+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-04-29T23:35:24.527+0100] {processor.py:925} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-04-29T23:35:24.537+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:35:24.537+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-04-29T23:35:24.545+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:35:24.545+0100] {dag.py:3239} INFO - Sync 3 DAGs
+[2025-04-29T23:35:24.554+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:35:24.554+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2025-04-29T23:35:24.556+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:35:24.556+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-04-29T23:35:24.557+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:35:24.557+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-04-29T23:35:24.560+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:35:24.560+0100] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-29T23:35:24.562+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:35:24.562+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-04-29T23:35:24.562+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:35:24.562+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-04-29T23:35:24.569+0100] {processor.py:208} INFO - Processing /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py took 0.136 seconds
+[2025-04-29T23:36:13.287+0100] {processor.py:186} INFO - Started process (PID=64641) to work on /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-04-29T23:36:13.288+0100] {processor.py:914} INFO - Processing file /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2025-04-29T23:36:13.289+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:36:13.289+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-04-29T23:36:13.385+0100] {processor.py:925} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-04-29T23:36:13.394+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:36:13.394+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-04-29T23:36:13.402+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:36:13.402+0100] {dag.py:3239} INFO - Sync 3 DAGs
+[2025-04-29T23:36:13.412+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:36:13.412+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2025-04-29T23:36:13.415+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:36:13.415+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-04-29T23:36:13.416+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:36:13.416+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-04-29T23:36:13.419+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:36:13.419+0100] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-29T23:36:13.421+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:36:13.421+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-04-29T23:36:13.422+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:36:13.421+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-04-29T23:36:13.432+0100] {processor.py:208} INFO - Processing /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py took 0.147 seconds
+[2025-04-29T23:37:12.375+0100] {processor.py:186} INFO - Started process (PID=64823) to work on /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-04-29T23:37:12.376+0100] {processor.py:914} INFO - Processing file /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2025-04-29T23:37:12.377+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:37:12.377+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-04-29T23:37:12.471+0100] {processor.py:925} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-04-29T23:37:12.480+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:37:12.480+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-04-29T23:37:12.489+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:37:12.488+0100] {dag.py:3239} INFO - Sync 3 DAGs
+[2025-04-29T23:37:12.499+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:37:12.499+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2025-04-29T23:37:12.502+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:37:12.501+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-04-29T23:37:12.502+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:37:12.502+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-04-29T23:37:12.507+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:37:12.507+0100] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-29T23:37:12.510+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:37:12.510+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-04-29T23:37:12.510+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:37:12.510+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-04-29T23:37:12.517+0100] {processor.py:208} INFO - Processing /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py took 0.144 seconds
+[2025-04-29T23:38:27.954+0100] {processor.py:186} INFO - Started process (PID=65084) to work on /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-04-29T23:38:27.955+0100] {processor.py:914} INFO - Processing file /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2025-04-29T23:38:27.955+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:38:27.955+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-04-29T23:38:28.050+0100] {processor.py:925} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py
+[2025-04-29T23:38:28.059+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:38:28.059+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-04-29T23:38:28.067+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:38:28.067+0100] {dag.py:3239} INFO - Sync 3 DAGs
+[2025-04-29T23:38:28.077+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:38:28.077+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2025-04-29T23:38:28.079+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:38:28.079+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-04-29T23:38:28.079+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:38:28.079+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-04-29T23:38:28.082+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:38:28.082+0100] {dag.py:3239} INFO - Sync 2 DAGs
+[2025-04-29T23:38:28.085+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:38:28.084+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2025-04-29T23:38:28.085+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:38:28.085+0100] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2025-04-29T23:38:28.091+0100] {processor.py:208} INFO - Processing /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py took 0.139 seconds

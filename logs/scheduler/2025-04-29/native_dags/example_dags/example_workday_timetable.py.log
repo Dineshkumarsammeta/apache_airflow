@@ -1,0 +1,53 @@
+[2025-04-29T23:33:03.591+0100] {processor.py:186} INFO - Started process (PID=64125) to work on /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_workday_timetable.py
+[2025-04-29T23:33:03.592+0100] {processor.py:914} INFO - Processing file /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_workday_timetable.py for tasks to queue
+[2025-04-29T23:33:03.592+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:33:03.592+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_workday_timetable.py
+[2025-04-29T23:33:03.594+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:33:03.594+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-04-29T23:33:03.598+0100] {processor.py:925} INFO - DAG(s) 'example_workday_timetable' retrieved from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_workday_timetable.py
+[2025-04-29T23:33:03.681+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:33:03.681+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-04-29T23:33:03.742+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:33:03.741+0100] {override.py:1901} INFO - Created Permission View: can delete on DAG:example_workday_timetable
+[2025-04-29T23:33:03.746+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:33:03.746+0100] {override.py:1901} INFO - Created Permission View: can read on DAG:example_workday_timetable
+[2025-04-29T23:33:03.749+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:33:03.749+0100] {override.py:1901} INFO - Created Permission View: can edit on DAG:example_workday_timetable
+[2025-04-29T23:33:03.753+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:33:03.753+0100] {override.py:1901} INFO - Created Permission View: menu access on DAG Run:example_workday_timetable
+[2025-04-29T23:33:03.756+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:33:03.756+0100] {override.py:1901} INFO - Created Permission View: can delete on DAG Run:example_workday_timetable
+[2025-04-29T23:33:03.759+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:33:03.759+0100] {override.py:1901} INFO - Created Permission View: can read on DAG Run:example_workday_timetable
+[2025-04-29T23:33:03.762+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:33:03.762+0100] {override.py:1901} INFO - Created Permission View: can create on DAG Run:example_workday_timetable
+[2025-04-29T23:33:03.762+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:33:03.762+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T23:33:03.770+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:33:03.770+0100] {dag.py:3262} INFO - Creating ORM DAG for example_workday_timetable
+[2025-04-29T23:33:03.774+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:33:03.774+0100] {dag.py:4180} INFO - Setting next_dagrun for example_workday_timetable to 2021-01-01 00:00:00+00:00, run_after=2021-01-02 00:00:00+00:00
+[2025-04-29T23:33:03.783+0100] {processor.py:208} INFO - Processing /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_workday_timetable.py took 0.195 seconds
+[2025-04-29T23:35:11.849+0100] {processor.py:186} INFO - Started process (PID=64367) to work on /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_workday_timetable.py
+[2025-04-29T23:35:11.850+0100] {processor.py:914} INFO - Processing file /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_workday_timetable.py for tasks to queue
+[2025-04-29T23:35:11.850+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:35:11.850+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_workday_timetable.py
+[2025-04-29T23:35:11.852+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:35:11.852+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-04-29T23:35:11.856+0100] {processor.py:925} INFO - DAG(s) 'example_workday_timetable' retrieved from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_workday_timetable.py
+[2025-04-29T23:35:11.939+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:35:11.939+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-04-29T23:35:11.950+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:35:11.950+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T23:35:11.960+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:35:11.960+0100] {dag.py:4180} INFO - Setting next_dagrun for example_workday_timetable to 2021-01-01 00:00:00+00:00, run_after=2021-01-02 00:00:00+00:00
+[2025-04-29T23:35:11.969+0100] {processor.py:208} INFO - Processing /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_workday_timetable.py took 0.123 seconds
+[2025-04-29T23:36:00.974+0100] {processor.py:186} INFO - Started process (PID=64601) to work on /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_workday_timetable.py
+[2025-04-29T23:36:00.976+0100] {processor.py:914} INFO - Processing file /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_workday_timetable.py for tasks to queue
+[2025-04-29T23:36:00.976+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:36:00.976+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_workday_timetable.py
+[2025-04-29T23:36:00.978+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:36:00.978+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-04-29T23:36:00.982+0100] {processor.py:925} INFO - DAG(s) 'example_workday_timetable' retrieved from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_workday_timetable.py
+[2025-04-29T23:36:01.065+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:36:01.065+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-04-29T23:36:01.076+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:36:01.076+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T23:36:01.086+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:36:01.086+0100] {dag.py:4180} INFO - Setting next_dagrun for example_workday_timetable to 2021-01-01 00:00:00+00:00, run_after=2021-01-02 00:00:00+00:00
+[2025-04-29T23:36:01.095+0100] {processor.py:208} INFO - Processing /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_workday_timetable.py took 0.123 seconds
+[2025-04-29T23:36:58.384+0100] {processor.py:186} INFO - Started process (PID=64775) to work on /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_workday_timetable.py
+[2025-04-29T23:36:58.384+0100] {processor.py:914} INFO - Processing file /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_workday_timetable.py for tasks to queue
+[2025-04-29T23:36:58.385+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:36:58.385+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_workday_timetable.py
+[2025-04-29T23:36:58.387+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:36:58.387+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-04-29T23:36:58.391+0100] {processor.py:925} INFO - DAG(s) 'example_workday_timetable' retrieved from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_workday_timetable.py
+[2025-04-29T23:36:58.482+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:36:58.482+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-04-29T23:36:58.494+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:36:58.494+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T23:36:58.512+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:36:58.512+0100] {dag.py:4180} INFO - Setting next_dagrun for example_workday_timetable to 2021-01-01 00:00:00+00:00, run_after=2021-01-02 00:00:00+00:00
+[2025-04-29T23:36:58.528+0100] {processor.py:208} INFO - Processing /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_workday_timetable.py took 0.146 seconds
+[2025-04-29T23:38:14.943+0100] {processor.py:186} INFO - Started process (PID=65062) to work on /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_workday_timetable.py
+[2025-04-29T23:38:14.944+0100] {processor.py:914} INFO - Processing file /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_workday_timetable.py for tasks to queue
+[2025-04-29T23:38:14.944+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:38:14.944+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_workday_timetable.py
+[2025-04-29T23:38:14.946+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:38:14.946+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-04-29T23:38:14.950+0100] {processor.py:925} INFO - DAG(s) 'example_workday_timetable' retrieved from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_workday_timetable.py
+[2025-04-29T23:38:15.032+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:38:15.032+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-04-29T23:38:15.043+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:38:15.043+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T23:38:15.053+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:38:15.053+0100] {dag.py:4180} INFO - Setting next_dagrun for example_workday_timetable to 2021-01-01 00:00:00+00:00, run_after=2021-01-02 00:00:00+00:00
+[2025-04-29T23:38:15.065+0100] {processor.py:208} INFO - Processing /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_workday_timetable.py took 0.124 seconds

@@ -1,0 +1,43 @@
+[2025-04-29T23:33:14.268+0100] {processor.py:186} INFO - Started process (PID=64142) to work on /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2025-04-29T23:33:14.269+0100] {processor.py:914} INFO - Processing file /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-04-29T23:33:14.269+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:33:14.269+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2025-04-29T23:33:14.311+0100] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2025-04-29T23:33:14.427+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:33:14.426+0100] {override.py:1901} INFO - Created Permission View: can delete on DAG:example_task_group
+[2025-04-29T23:33:14.432+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:33:14.432+0100] {override.py:1901} INFO - Created Permission View: can read on DAG:example_task_group
+[2025-04-29T23:33:14.435+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:33:14.435+0100] {override.py:1901} INFO - Created Permission View: can edit on DAG:example_task_group
+[2025-04-29T23:33:14.440+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:33:14.440+0100] {override.py:1901} INFO - Created Permission View: can delete on DAG Run:example_task_group
+[2025-04-29T23:33:14.443+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:33:14.443+0100] {override.py:1901} INFO - Created Permission View: menu access on DAG Run:example_task_group
+[2025-04-29T23:33:14.447+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:33:14.447+0100] {override.py:1901} INFO - Created Permission View: can create on DAG Run:example_task_group
+[2025-04-29T23:33:14.450+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:33:14.450+0100] {override.py:1901} INFO - Created Permission View: can read on DAG Run:example_task_group
+[2025-04-29T23:33:14.450+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:33:14.450+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T23:33:14.458+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:33:14.458+0100] {dag.py:3262} INFO - Creating ORM DAG for example_task_group
+[2025-04-29T23:33:14.458+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:33:14.458+0100] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-04-29T23:33:14.469+0100] {processor.py:208} INFO - Processing /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.203 seconds
+[2025-04-29T23:35:22.136+0100] {processor.py:186} INFO - Started process (PID=64455) to work on /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2025-04-29T23:35:22.137+0100] {processor.py:914} INFO - Processing file /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-04-29T23:35:22.137+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:35:22.137+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2025-04-29T23:35:22.173+0100] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2025-04-29T23:35:22.232+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:35:22.232+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T23:35:22.238+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:35:22.238+0100] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-04-29T23:35:22.248+0100] {processor.py:208} INFO - Processing /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.114 seconds
+[2025-04-29T23:36:11.511+0100] {processor.py:186} INFO - Started process (PID=64635) to work on /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2025-04-29T23:36:11.512+0100] {processor.py:914} INFO - Processing file /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-04-29T23:36:11.512+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:36:11.512+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2025-04-29T23:36:11.553+0100] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2025-04-29T23:36:11.611+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:36:11.611+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T23:36:11.617+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:36:11.617+0100] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-04-29T23:36:11.631+0100] {processor.py:208} INFO - Processing /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.122 seconds
+[2025-04-29T23:37:10.444+0100] {processor.py:186} INFO - Started process (PID=64815) to work on /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2025-04-29T23:37:10.445+0100] {processor.py:914} INFO - Processing file /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-04-29T23:37:10.446+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:37:10.446+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2025-04-29T23:37:10.487+0100] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2025-04-29T23:37:10.547+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:37:10.547+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T23:37:10.554+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:37:10.554+0100] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-04-29T23:37:10.565+0100] {processor.py:208} INFO - Processing /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.123 seconds
+[2025-04-29T23:38:25.620+0100] {processor.py:186} INFO - Started process (PID=65081) to work on /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2025-04-29T23:38:25.621+0100] {processor.py:914} INFO - Processing file /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2025-04-29T23:38:25.622+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:38:25.622+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2025-04-29T23:38:25.658+0100] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py
+[2025-04-29T23:38:25.717+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:38:25.717+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T23:38:25.724+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:38:25.724+0100] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2025-04-29T23:38:25.734+0100] {processor.py:208} INFO - Processing /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_task_group.py took 0.115 seconds

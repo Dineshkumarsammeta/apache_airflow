@@ -1,0 +1,48 @@
+[2025-04-29T23:33:33.491+0100] {processor.py:186} INFO - Started process (PID=64176) to work on /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-04-29T23:33:33.492+0100] {processor.py:914} INFO - Processing file /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-04-29T23:33:33.492+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:33:33.492+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-04-29T23:33:33.544+0100] {processor.py:925} INFO - DAG(s) 'example_sensor_decorator' retrieved from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-04-29T23:33:33.596+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:33:33.596+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-04-29T23:33:33.656+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:33:33.655+0100] {override.py:1901} INFO - Created Permission View: can read on DAG:example_sensor_decorator
+[2025-04-29T23:33:33.660+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:33:33.660+0100] {override.py:1901} INFO - Created Permission View: can edit on DAG:example_sensor_decorator
+[2025-04-29T23:33:33.663+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:33:33.663+0100] {override.py:1901} INFO - Created Permission View: can delete on DAG:example_sensor_decorator
+[2025-04-29T23:33:33.667+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:33:33.667+0100] {override.py:1901} INFO - Created Permission View: can read on DAG Run:example_sensor_decorator
+[2025-04-29T23:33:33.670+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:33:33.670+0100] {override.py:1901} INFO - Created Permission View: menu access on DAG Run:example_sensor_decorator
+[2025-04-29T23:33:33.673+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:33:33.673+0100] {override.py:1901} INFO - Created Permission View: can create on DAG Run:example_sensor_decorator
+[2025-04-29T23:33:33.676+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:33:33.676+0100] {override.py:1901} INFO - Created Permission View: can delete on DAG Run:example_sensor_decorator
+[2025-04-29T23:33:33.676+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:33:33.676+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T23:33:33.683+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:33:33.682+0100] {dag.py:3262} INFO - Creating ORM DAG for example_sensor_decorator
+[2025-04-29T23:33:33.683+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:33:33.683+0100] {dag.py:4180} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-04-29T23:33:33.692+0100] {processor.py:208} INFO - Processing /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.203 seconds
+[2025-04-29T23:35:41.230+0100] {processor.py:186} INFO - Started process (PID=64512) to work on /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-04-29T23:35:41.231+0100] {processor.py:914} INFO - Processing file /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-04-29T23:35:41.232+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:35:41.232+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-04-29T23:35:41.283+0100] {processor.py:925} INFO - DAG(s) 'example_sensor_decorator' retrieved from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-04-29T23:35:41.335+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:35:41.335+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-04-29T23:35:41.345+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:35:41.345+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T23:35:41.352+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:35:41.352+0100] {dag.py:4180} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-04-29T23:35:41.362+0100] {processor.py:208} INFO - Processing /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.134 seconds
+[2025-04-29T23:36:31.602+0100] {processor.py:186} INFO - Started process (PID=64694) to work on /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-04-29T23:36:31.607+0100] {processor.py:914} INFO - Processing file /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-04-29T23:36:31.608+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:36:31.607+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-04-29T23:36:31.663+0100] {processor.py:925} INFO - DAG(s) 'example_sensor_decorator' retrieved from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-04-29T23:36:31.715+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:36:31.715+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-04-29T23:36:31.725+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:36:31.725+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T23:36:31.732+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:36:31.732+0100] {dag.py:4180} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-04-29T23:36:31.743+0100] {processor.py:208} INFO - Processing /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.144 seconds
+[2025-04-29T23:37:28.739+0100] {processor.py:186} INFO - Started process (PID=64881) to work on /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-04-29T23:37:28.740+0100] {processor.py:914} INFO - Processing file /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-04-29T23:37:28.741+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:37:28.740+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-04-29T23:37:28.807+0100] {processor.py:925} INFO - DAG(s) 'example_sensor_decorator' retrieved from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-04-29T23:37:28.868+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:37:28.868+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-04-29T23:37:28.881+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:37:28.881+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T23:37:28.889+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:37:28.889+0100] {dag.py:4180} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-04-29T23:37:28.922+0100] {processor.py:208} INFO - Processing /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.185 seconds
+[2025-04-29T23:38:44.775+0100] {processor.py:186} INFO - Started process (PID=65189) to work on /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-04-29T23:38:44.776+0100] {processor.py:914} INFO - Processing file /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2025-04-29T23:38:44.777+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:38:44.777+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-04-29T23:38:44.830+0100] {processor.py:925} INFO - DAG(s) 'example_sensor_decorator' retrieved from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2025-04-29T23:38:44.882+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:38:44.882+0100] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-04-29T23:38:44.892+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:38:44.892+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T23:38:44.901+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:38:44.901+0100] {dag.py:4180} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2025-04-29T23:38:44.911+0100] {processor.py:208} INFO - Processing /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.137 seconds

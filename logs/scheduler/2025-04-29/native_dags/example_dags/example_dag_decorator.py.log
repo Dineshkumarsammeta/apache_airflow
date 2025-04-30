@@ -1,0 +1,29 @@
+[2025-04-29T23:34:17.268+0100] {processor.py:186} INFO - Started process (PID=64249) to work on /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-29T23:34:17.269+0100] {processor.py:914} INFO - Processing file /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-04-29T23:34:17.270+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:34:17.270+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-29T23:34:17.372+0100] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-29T23:34:17.474+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:34:17.474+0100] {override.py:1901} INFO - Created Permission View: can read on DAG:example_dag_decorator
+[2025-04-29T23:34:17.479+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:34:17.479+0100] {override.py:1901} INFO - Created Permission View: can edit on DAG:example_dag_decorator
+[2025-04-29T23:34:17.482+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:34:17.482+0100] {override.py:1901} INFO - Created Permission View: can delete on DAG:example_dag_decorator
+[2025-04-29T23:34:17.486+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:34:17.486+0100] {override.py:1901} INFO - Created Permission View: can read on DAG Run:example_dag_decorator
+[2025-04-29T23:34:17.489+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:34:17.489+0100] {override.py:1901} INFO - Created Permission View: can delete on DAG Run:example_dag_decorator
+[2025-04-29T23:34:17.492+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:34:17.492+0100] {override.py:1901} INFO - Created Permission View: can create on DAG Run:example_dag_decorator
+[2025-04-29T23:34:17.495+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:34:17.495+0100] {override.py:1901} INFO - Created Permission View: menu access on DAG Run:example_dag_decorator
+[2025-04-29T23:34:17.495+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:34:17.495+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T23:34:17.502+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:34:17.502+0100] {dag.py:3262} INFO - Creating ORM DAG for example_dag_decorator
+[2025-04-29T23:34:17.503+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:34:17.503+0100] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-04-29T23:34:17.512+0100] {processor.py:208} INFO - Processing /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.246 seconds
+[2025-04-29T23:37:25.413+0100] {processor.py:186} INFO - Started process (PID=64869) to work on /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-29T23:37:25.414+0100] {processor.py:914} INFO - Processing file /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-04-29T23:37:25.415+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:37:25.415+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-29T23:37:25.523+0100] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-29T23:37:25.650+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:37:25.650+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T23:37:25.657+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:37:25.657+0100] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-04-29T23:37:25.669+0100] {processor.py:208} INFO - Processing /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.258 seconds
+[2025-04-29T23:39:25.293+0100] {processor.py:186} INFO - Started process (PID=65265) to work on /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-29T23:39:25.294+0100] {processor.py:914} INFO - Processing file /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2025-04-29T23:39:25.295+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:39:25.295+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-29T23:39:25.399+0100] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py
+[2025-04-29T23:39:25.520+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:39:25.520+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T23:39:25.526+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:39:25.526+0100] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2025-04-29T23:39:25.537+0100] {processor.py:208} INFO - Processing /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_dag_decorator.py took 0.245 seconds

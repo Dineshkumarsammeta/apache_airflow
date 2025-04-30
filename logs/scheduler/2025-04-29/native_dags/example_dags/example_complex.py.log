@@ -1,0 +1,29 @@
+[2025-04-29T23:34:18.762+0100] {processor.py:186} INFO - Started process (PID=64253) to work on /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2025-04-29T23:34:18.763+0100] {processor.py:914} INFO - Processing file /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-04-29T23:34:18.763+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:34:18.763+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2025-04-29T23:34:18.803+0100] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2025-04-29T23:34:18.919+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:34:18.918+0100] {override.py:1901} INFO - Created Permission View: can read on DAG:example_complex
+[2025-04-29T23:34:18.924+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:34:18.923+0100] {override.py:1901} INFO - Created Permission View: can delete on DAG:example_complex
+[2025-04-29T23:34:18.927+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:34:18.927+0100] {override.py:1901} INFO - Created Permission View: can edit on DAG:example_complex
+[2025-04-29T23:34:18.931+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:34:18.931+0100] {override.py:1901} INFO - Created Permission View: can read on DAG Run:example_complex
+[2025-04-29T23:34:18.934+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:34:18.933+0100] {override.py:1901} INFO - Created Permission View: can delete on DAG Run:example_complex
+[2025-04-29T23:34:18.937+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:34:18.936+0100] {override.py:1901} INFO - Created Permission View: menu access on DAG Run:example_complex
+[2025-04-29T23:34:18.940+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:34:18.940+0100] {override.py:1901} INFO - Created Permission View: can create on DAG Run:example_complex
+[2025-04-29T23:34:18.940+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:34:18.940+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T23:34:18.948+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:34:18.948+0100] {dag.py:3262} INFO - Creating ORM DAG for example_complex
+[2025-04-29T23:34:18.948+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:34:18.948+0100] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-04-29T23:34:18.958+0100] {processor.py:208} INFO - Processing /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.198 seconds
+[2025-04-29T23:37:27.003+0100] {processor.py:186} INFO - Started process (PID=64875) to work on /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2025-04-29T23:37:27.004+0100] {processor.py:914} INFO - Processing file /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-04-29T23:37:27.005+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:37:27.005+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2025-04-29T23:37:27.048+0100] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2025-04-29T23:37:27.117+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:37:27.117+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T23:37:27.123+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:37:27.123+0100] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-04-29T23:37:27.134+0100] {processor.py:208} INFO - Processing /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.133 seconds
+[2025-04-29T23:39:27.753+0100] {processor.py:186} INFO - Started process (PID=65271) to work on /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2025-04-29T23:39:27.754+0100] {processor.py:914} INFO - Processing file /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-04-29T23:39:27.755+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:39:27.755+0100] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2025-04-29T23:39:27.793+0100] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_complex.py
+[2025-04-29T23:39:27.859+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:39:27.859+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T23:39:27.866+0100] {logging_mixin.py:190} INFO - [2025-04-29T23:39:27.865+0100] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-04-29T23:39:27.875+0100] {processor.py:208} INFO - Processing /Users/dineshsammeta/anaconda3/envs/python38/lib/python3.8/site-packages/airflow/example_dags/example_complex.py took 0.124 seconds
