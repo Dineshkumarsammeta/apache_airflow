@@ -19,7 +19,7 @@ This repository contains a set of workflows/DAGs built using **Apache Airflow** 
 - [Contact](#contact)  
 
 ## About  
-This project is designed to manage, schedule and monitor data workflows using Apache Airflow. It includes a set of sample and production-ready DAGs (Directed Acyclic Graphs) that demonstrate good practices for orchestration, logging, dependency management, and error handling.
+The purpose of this project is to use Apache Airflow for data workflow management, scheduling, and monitoring. It contains a collection of production-ready and example DAGs (Directed Acyclic Graphs) that illustrate best practices for error handling, dependency management, orchestration, and logging.
 
 ## Features  
 - 🚀 Scalable task scheduling and orchestration using Airflow’s core concepts (DAGs, Operators, Tasks)  
